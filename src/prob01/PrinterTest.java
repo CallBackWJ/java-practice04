@@ -9,6 +9,9 @@ public class PrinterTest {
 		printer.println( true );
 		printer.println( 5.7 );
 		printer.println( "홍길동" );
+		
+		//가변변수 
+		printer.println(10,20,"홍",true);
 	}
 
 }
